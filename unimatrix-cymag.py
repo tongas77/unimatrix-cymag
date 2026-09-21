@@ -280,7 +280,7 @@ elif args.custom_characters:
 
 # Neither "-l" nor "-u" has been set, use default characters
 else:
-    chars = char_set['m']
+    chars = char_set['k'] + char_set['P']
 
 if args.no_bold:
     args.all_bold = False
